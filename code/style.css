@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.hero{
+    height: 700px;
+    width: 100%;
+    padding-top: 30px;
+    background-image: url("../Images/background_img.jpg");
+    background-size: cover;
+}
+.logo{
+    background-image: url("../Images/Netflix_2015_logo.svg.png");
+    margin-left: 30px;
+    /* padding-top: 10px; */
+    background-size: cover;
+    height: 50px;
+    width: 200px;
+}
+.language select{
+    position: absolute;
+    right: 200px;
+    background-color: transparent;
+    color: white;
+    top:50px;
+    height: 30px;
+    border-radius: 6px;
+}
+.signIn{
+    height: 30px;
+    width: 65px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    right: 125px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.div2{
+    /* font-size: 200px;
+    color: violet; */
+    height: 510px;
+    /* border-bottom: 5px solid blue; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+/* .line{
+    border-radius: 40%;
+    border-top: 5px solid rgb(203, 18, 18);
+    height: 100px;
+    background-color: black;
+    
+} */
+h1{
+    width: 450px;
+    height: 100px;
+    font-weight: 900;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.p1{
+    font-weight: 700;
+    color: white;
+    font-size: 0.85rem;
+}
+p{
+    color: white;
+}
+.div3{
+    display: flex;
+}
+input{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    height: 2rem;
+    display: inline;
+    border-radius: 4px;
+}
+button{
+     margin-left: 3px; 
+    margin-top: 10px;
+    background-color: red;
+    height: 2.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    border-radius: 4px;
+}
+.div4{
+    border-radius: 40%;
+    border-top: 5px solid rgb(210, 20, 20);
+    height: 90px;
+    color: white;
+    position: relative;
+    font-size: 1.25rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+}
+.div4 h2{
+    /* position: absolute; */
+    /* bottom: 0px; */
+    /* margin-left: 20px; */
+    padding-left: 150px;
+    width: 100%;
+    background-color: black;
+}
+.box1{
+    width: 140px;
+    height: 196px;
+    background-image: url("../Images/Money_heist.jpg");
+    background-size: cover;
+    /* margin-left: 10px; */
+}
+
+.container{
+    padding: 150px;
+    padding-top: 10px;
+    background-color: black;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.box2{
+    width: 140px;
+    height: 196px;
+    background-image: url("../Images/squid-game-season-3.jpg");
+    background-size: cover;
+    margin-left: 20px;
+}
+.box3{
+    width: 140px;
+    height: 196px;
+    background-image: url("../Images/Mirzapur.jpg");
+    background-size: cover;
+    margin-left: 20px;
+}
+.box4{
+    width: 140px;
+    height: 196px;
+    background-image: url("../Images/family-man.jpg");
+    background-size: cover;
+    margin-left: 20px;
+}
+.box5{
+    width: 140px;
+    height: 196px;
+    background-image: url("../Images/laxmi.jpg");
+    background-size: cover;
+    margin-left: 20px;
+}
+.More-reasons{
+    height: 500px;
+    width: 100%;
+    /* display: flex;
+    flex-direction: row; */
+}
+.More-reasons h2{
+    margin-top: 20px;
+    /* padding-right: 10px; */
+    color: white;
+}
+.More-reasons{
+    height: 280px;
+}
+.four-boxes{
+    margin-top: 10px;
+    height: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    
+}
+.Tv{
+    background-image: url("../Images/Tv.png");
+    background-size: cover;
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    bottom: 10px;
+    right: 10px;
+}
+h3{
+    /* padding-top: 2px; */
+    font-size: 1.2rem;
+    color: white;
+    padding-bottom: 4px;
+}
+.four-boxes p{
+    margin-top: 3px;
+    font-weight: 100;
+}
+.download{
+    height:175px;
+    width: 200px;
+    background-color: #212b86;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+.Install{
+    background-image: url("../Images/D.png");
+    background-size: cover;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 10px;
+    right: 10px;
+}
+.Sunglasses{
+    background-image: url("../Images/Sunglasses.png");
+    background-size: cover;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 10px;
+    right: 10px;
+}
+.Smilie{
+    background-image: url("../Images/Smilie.png");
+    background-size: cover;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 10px;
+    right: 10px;
+}
+.Frequently-Asked{
+    color: white;
+}
+.Frequently-Asked h3{
+    font-size: 1.5rem;
+    /* padding-left: 7px; */
+    box-sizing: border-box;
+}
+.One-div{
+    height: 70px;
+    width: 100%;
+    padding: 1.5rem;
+    margin-bottom: 8px;
+    background-color: rgb(53, 51, 51);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.End-1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.End-1 p{
+    color: white;
+    font-size: 0.85rem;
+}
+span{
+    color: rgb(167, 154, 154);
+}
+ul{
+    color: rgb(161, 148, 148);
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+ul a{
+    display: block;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.end-select{
+    height: 1.75rem;
+    width: 5.75rem;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 4px;
+   
+}
+.p1{
+    font-size: 0.75rem;
+    color: wheat;
+}
+.p2{
+    color: rgb(124, 118, 118);
+}
+.p2 a{
+    color: blue;
+}
+
