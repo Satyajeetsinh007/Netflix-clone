@@ -8,10 +8,10 @@ for (let div of allFaq) {
 
         div.classList.toggle("active");
         
-        // show/hide the answer
+       
         answer.classList.toggle("hidden");
         
-        // toggle icon
+       
         if (div.classList.contains("active")) {
             
             

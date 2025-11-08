@@ -4,7 +4,7 @@
     
 }
 .hidden{
-    visibility: hidden;
+    display: none;
 }
 .hero{
     height: 700px;
@@ -253,7 +253,7 @@ h3{
     /* padding-left: 7px; */
     box-sizing: border-box;
 }
-.One-div{
+/* .One-div{
     height: 70px;
     width: 100%;
     padding: 1.5rem;
@@ -262,7 +262,31 @@ h3{
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+} */
+ .One-div {
+  position: relative;
+  font-size: 22px;
+  background: #222;
+  padding: 20px;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+  /* display: flex;
+  justify-content: space-between; */
 }
+.One-div p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.fa-plus, .fa-minus {
+    position: absolute;
+    right: 20px;
+    top:50%;
+   
+    transform: translateY(-50%);
+}
+
+
 .End-1{
     margin-top: 50px;
     display: flex;
@@ -313,4 +337,5 @@ ul a{
 .p2 a{
     color: blue;
 }
+
 
