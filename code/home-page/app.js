@@ -1,4 +1,9 @@
 let allFaq = document.querySelectorAll(".One-div");
+let signIn=document.querySelectorAll(".signIn")
+
+document.querySelector(".signIn").addEventListener("click", () => {
+    window.location.href = "../sign-in page/index.html";
+});
 
 for (let div of allFaq) {
     div.addEventListener("click", () => {

@@ -10,11 +10,11 @@
     height: 700px;
     width: 100%;
     padding-top: 30px;
-    background-image: url("../Images/background_img.jpg");
+    background-image: url("../../Images/background_img.jpg");
     background-size: cover;
 }
 .logo{
-    background-image: url("../Images/Netflix_2015_logo.svg.png");
+    background-image: url("../../Images/Netflix_2015_logo.svg.png");
     margin-left: 30px;
     /* padding-top: 10px; */
     background-size: cover;
@@ -31,6 +31,7 @@
     border-radius: 6px;
 }
 .signIn{
+    cursor: pointer;
     height: 30px;
     width: 65px;
     position: absolute;
@@ -125,7 +126,8 @@ button{
 .box1{
     width: 140px;
     height: 196px;
-    background-image: url("../Images/Money_heist.jpg");
+    background-image: url("../../Images/Money_heist.jpg");
+
     background-size: cover;
     /* margin-left: 10px; */
 }
@@ -142,28 +144,28 @@ button{
 .box2{
     width: 140px;
     height: 196px;
-    background-image: url("../Images/squid-game-season-3.jpg");
+    background-image: url("../../Images/squid-game-season-3.jpg");
     background-size: cover;
     margin-left: 20px;
 }
 .box3{
     width: 140px;
     height: 196px;
-    background-image: url("../Images/Mirzapur.jpg");
+    background-image: url("../../Images/Mirzapur.jpg");
     background-size: cover;
     margin-left: 20px;
 }
 .box4{
     width: 140px;
     height: 196px;
-    background-image: url("../Images/family-man.jpg");
+    background-image: url("../../Images/family-man.jpg");
     background-size: cover;
     margin-left: 20px;
 }
 .box5{
     width: 140px;
     height: 196px;
-    background-image: url("../Images/laxmi.jpg");
+    background-image: url("../../Images/laxmi.jpg");
     background-size: cover;
     margin-left: 20px;
 }
@@ -191,7 +193,7 @@ button{
     
 }
 .Tv{
-    background-image: url("../Images/Tv.png");
+    background-image: url("../../Images/Tv.png");
     background-size: cover;
     position: absolute;
     height: 40px;
@@ -219,7 +221,7 @@ h3{
     position: relative;
 }
 .Install{
-    background-image: url("../Images/D.png");
+    background-image: url("../../Images/D.png");
     background-size: cover;
     position: absolute;
     height: 50px;
@@ -228,7 +230,7 @@ h3{
     right: 10px;
 }
 .Sunglasses{
-    background-image: url("../Images/Sunglasses.png");
+    background-image: url("../../Images/Sunglasses.png");
     background-size: cover;
     position: absolute;
     height: 50px;
@@ -237,7 +239,7 @@ h3{
     right: 10px;
 }
 .Smilie{
-    background-image: url("../Images/Smilie.png");
+    background-image: url("../../Images/Smilie.png");
     background-size: cover;
     position: absolute;
     height: 50px;
@@ -281,8 +283,7 @@ h3{
 .fa-plus, .fa-minus {
     position: absolute;
     right: 20px;
-    top:50%;
-   
+    top:50%;  
     transform: translateY(-50%);
 }
 
